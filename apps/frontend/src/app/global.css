@@ -381,6 +381,16 @@ summary svg {
   margin-right: 1rem;
   width: 1.5rem;
 }
+
+.typography-clamp {
+  width: 250px;
+  min-width: 20px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
 #love {
   color: rgba(107, 114, 128, 1);
   font-size: 0.875rem;

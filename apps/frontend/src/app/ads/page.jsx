@@ -4,9 +4,9 @@ import axios from 'axios';
 import React, { useCallback, useState, useEffect } from 'react';
 import { toast } from 'react-toastify';
 import { Button, Box, Stack, SwipeableDrawer, Typography } from '@mui/material';
-import styles from './index.module.scss';
-import AdsList from '../components/AdsList';
-import DrawerBody from '../components/DrowerBody';
+import styles from '../index.module.scss';
+import AdsList from '../../components/AdsList';
+import DrawerBody from '../../components/DrowerBody';
 
 export default function Index() {
   const [ads, setAds] = useState();
